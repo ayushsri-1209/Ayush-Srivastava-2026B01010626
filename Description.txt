@@ -1,0 +1,36 @@
+ Titanic Dataset – Data Cleaning and Analysis Using Python
+
+## 1. Introduction
+
+My project is based on data cleaning and basic exploratory data analysis using Python. For this project, I have used the Titanic dataset, which contains information about passengers who travelled on the Titanic ship.
+
+The main motive of this project is to understand how we can use Python and its Pandas library to read, clean, modify and analyse a dataset.
+
+## 2. Platforms and Technologies Used
+
+VS Code: Used as a code editor to write and run the Python program.
+Python: Used as the main programming language.
+Pandas: Used to handle, clean and analyse the dataset.
+CSV File: Used to store the Titanic dataset in tabular form.
+
+## 3. How the Code Works
+
+First, I imported the Pandas library and loaded the Titanic dataset using the 'read_csv()' function.
+
+After loading the dataset, I used different functions like 'head()', 'tail()', 'shape', 'columns' and 'dtypes' to understand the data and its structure.
+
+Then, I checked the dataset for missing values and duplicate records using 'isna()' and 'duplicated()'.
+
+After that, I cleaned the data by filling missing age values with the median, filling missing embarked values with the most common value and replacing missing cabin values with "Unknown". I also removed duplicate records.
+
+Next, I modified the dataset by adding three new columns: FamilySize, Alone and Survival_Status.
+
+Finally, I performed some basic analysis using functions like 'value_counts()', 'groupby()', 'sort_values()' and 'corr()' to understand different patterns in the data.
+
+At the end, I saved the cleaned dataset into a new CSV file using 'to_csv()'.
+
+## 4. Conclusion
+
+Through this project, I learned how to work with a real dataset using Python and Pandas. I understood how to identify missing values, remove duplicates, modify columns and perform basic data analysis.
+
+The main purpose of this project was to get a basic understanding of how data cleaning and exploratory data analysis are performed before using data for further work.
